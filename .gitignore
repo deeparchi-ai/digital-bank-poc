@@ -102,3 +102,10 @@ gradlew.bat
 local/
 local.*
 *.local
+
+# Large generated test data (regenerate from seed/script; keep out of git)
+database/test-data/*.csv
+
+# Heavy binary report exports (Markdown sources kept in docs/reports/*.md)
+docs/reports/*.docx
+docs/reports/*.pdf
